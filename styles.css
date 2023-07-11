@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Lato;
 }
 
 .btn-primary {
@@ -22,13 +22,22 @@ body {
     color: red;
 }
 
+.header-container {
+    width: 100%;
+    background: rgba(229, 84, 115, 0.10);
+}
+
 .banner-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 60px;
-    height: 800px;
 
+}
+
+.image {
+    width: 635px;
+    height: 800px;
 }
 
 .banner-container img {
@@ -47,39 +56,48 @@ body {
 
 .featured-container {
     font-size: 30px;
-
+    
 }
 
 .content-container {
     text-align: center;
-    margin: 20px 60px;
+    margin: 60px 60px;
 }
 
 .featured-img {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     margin: 20px 60px;
 }
 
 .img-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
     border-radius: 300px 300px 0px 0px;
+}
+
+.before-containar{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-decoration: underline;
+
 }
 
 .featured-img img {
     width: 310px;
     height: 400px;
 }
-
-.img-container a {
-    text-align: center;
-    width: fit-content;
-    text-decoration: underline;
-    padding-top: 20px;
-    margin: 20px;
+a{
+    margin-top: 30px;
 }
+
 
 .bg-for-1 {
     background: rgba(167, 33, 98, 0.15);
@@ -100,24 +118,33 @@ body {
 
 /* instagram section styles */
 .insta-container {
-    margin: 40px 0px;
+    margin-top: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .insta-container h4 {
     font-size: 40px;
 }
+
 .insta-container p {
     padding-bottom: 20px;
 }
 
 .insta-img {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    text-align: center;
-    /* width: fit-content; */
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
 }
+
+.insta-img img {
+    width: 270px;
+    height: 306px;
+    padding: 5px;
+}
+
 /* mark section styles */
 .mark-section {
     margin: 30px 20px;
@@ -174,10 +201,10 @@ body {
 /* bonus section styles */
 .ext-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
     background-color: rgba(226, 218, 229, 0.934);
+    height: 350px;
 }
 
 .ext-container {
@@ -202,7 +229,8 @@ body {
     background-image: url("images/Rectangle\ 9.png");
     align-items: center;
     justify-content: center;
-    height: 200px;
+    gap: 10px;
+    height: 300px;
     margin: 30px 60px;
 
 }
@@ -213,6 +241,7 @@ body {
     border-radius: 5px;
 
 }
+
 .email-btn {
     display: flex;
     align-items: center;
@@ -229,18 +258,25 @@ body {
     justify-content: center;
     background-color: rgb(21, 17, 17);
     color: whitesmoke;
-    height: 300px;
+    height: 400px;
     row-gap: 5px;
 }
 
 .foot-title {
-    font-style: oblique;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .foot-description {
-    font-size: 80%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .copyright {
-    font-size: 50%;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
