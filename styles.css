@@ -47,49 +47,78 @@ body {
 
 .featured-container {
     font-size: 30px;
-    
+
 }
-.content-container{
+
+.content-container {
     text-align: center;
     margin: 20px 60px;
 }
+
 .featured-img {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 20px 60px;
 }
-.img-container{
+
+.img-container {
     display: flex;
     flex-direction: column;
     border-radius: 300px 300px 0px 0px;
 }
+
 .featured-img img {
     width: 310px;
     height: 400px;
 }
 
-.img-container a{
+.img-container a {
     text-align: center;
     width: fit-content;
     text-decoration: underline;
+    padding-top: 20px;
+    margin: 20px;
 }
 
-.bg-for-1{
+.bg-for-1 {
     background: rgba(167, 33, 98, 0.15);
 }
-.bg-for-2{
+
+.bg-for-2 {
     background: rgba(5, 151, 160, 0.15);
 }
-.bg-for-3{
+
+.bg-for-3 {
     background: rgba(71, 125, 17, 0.15);
 }
+
 .section-description {
     font-size: 15px;
     margin-bottom: 20px;
-
 }
 
+/* instagram section styles */
+.insta-container {
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.insta-container h4 {
+    font-size: 40px;
+}
+.insta-container p {
+    padding-bottom: 20px;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+    /* width: fit-content; */
+}
+/* mark section styles */
 .mark-section {
     margin: 30px 20px;
 }
@@ -113,10 +142,11 @@ body {
     height: 320px;
 }
 
-.offer-container img{
+.offer-container img {
     margin-right: 100px;
 }
-.offer-content-container{
+
+.offer-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,6 +154,7 @@ body {
     gap: 15px;
     margin-left: 100px;
 }
+
 /* non-credit section styles */
 .ncredit-section {
     margin: 50px 80px;
@@ -146,7 +177,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: rgba(213, 186, 224, 0.934);
+    background-color: rgba(226, 218, 229, 0.934);
 }
 
 .ext-container {
@@ -176,20 +207,20 @@ body {
 
 }
 
-.btn{
+.btn {
     height: 40px;
-    width: 600px;
+    width: 300px;
     border-radius: 5px;
 
 }
-.email-btn{
+.email-btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5px;
 }
 
-/* footer styles */
+/* footer related styles */
 
 .end-decorate {
     display: flex;
